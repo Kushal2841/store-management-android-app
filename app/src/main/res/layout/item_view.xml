@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sandwich" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_view_stock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock left"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_view_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Price"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
