@@ -1,6 +1,7 @@
 # store-management-android-app
 
-#Output
+# Output
+
 ![Signup](https://user-images.githubusercontent.com/57358348/175826711-89ae9e3c-e587-4b1e-b1b2-70105a7a14e6.jpeg)
 ![signin](https://user-images.githubusercontent.com/57358348/175826501-3b68fa63-40dc-40b5-91c4-bab76081e83b.jpeg)
 ![home](https://user-images.githubusercontent.com/57358348/175826507-a9cce819-8de1-4ec3-8244-38c586cd84b6.jpeg)
